@@ -93,7 +93,7 @@ def check_user_status(letter_count, interval, save_to_file=True, webhook_url=Non
                 else:
                     status = f"{Fore.RED}claimed"
             
-                print(f"URL: {Fore.CYAN}{base_url}{random_suffix} - Status: {status}{Fore.RESET}")
+                print(f"URL: {Fore.BLUE}{base_url}{random_suffix} - Status: {status}{Fore.RESET}")
 
             except Exception as e:
                 print(f"Error accessing https://{url}: {e}")
