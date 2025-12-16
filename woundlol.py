@@ -81,7 +81,7 @@ def check_user_status(letter_count, interval, save_to_file=True, webhook_url=Non
                         embed = {
                             "title": f"Available: {random_suffix} (https://wound.lol/{random_suffix})",
                             "description": f"github.com/efekrbas",
-                            "color": 0x87CEEB  # Açık mavi renk (sky blue)
+                            "color": 0x0000FF  # mavi renk (blue)
                         }
                         payload = {
                             "embeds": [embed],
